@@ -1,0 +1,84 @@
+/* 
+Font declarations (a property: value pair)
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif; 
+*/
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body {
+    background-color: #AABA78;
+    font-family: 'Raleway', sans-serif;
+    color: #48502A;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+#navbar-brand {
+    color: #fff;
+    font-size: 1.1em;
+}
+
+#navbar-brand:hover {
+    color: #48502A;
+    transition-property: color;
+    transition-duration: 200ms;
+}
+
+#link-1, #link-2, #link-3 {
+    color: white;
+    font-size: 1.1em;
+}
+
+#link-1:hover, #link-2:hover, #link-3:hover {
+    color: #48502A;
+}
+
+.title-text {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.char-style {
+    color: #48502A;
+}
+
+.image {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 100%;
+}
+
+.image img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.site-icon {
+    color: #fff;
+}
+
+.navbar.scrolled {
+    background-color: #48502a90 !important;
+    transition-property: background-color;
+    transition-duration: 500ms;
+}
+
+@media (min-width: 768px) {
+    #navbar-brand {
+        color: #48502A;
+    }
+
+    #navbar-brand:hover {
+        color: #fff;
+    }
+}
